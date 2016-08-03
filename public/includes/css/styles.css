@@ -1,53 +1,15 @@
 th,
-td {
+td,
+tr {
     padding: 10px 10px;
 }
-
-#find {
-    width: 200px;
-    height: 30px;
-}
-
-#part1 {
-    margin-bottom: 20px;
-}
-
-#part2 {
+#email{
     margin-bottom: 10px;
 }
-
-#email,
-#email2 {
-    margin-bottom: 10px;
-}
-
 .pull-right {
     margin-left: 10px;
 }
-
-
-/* --------------------------------------
-   Media Queries
-   -------------------------------------- */
-
-
-/* Portrait & landscape phone */
-
-@media (max-width: 480px) {
-    */
+table
+{
+  margin-top: 10px;
 }
-
-
-/* Landscape phone to portrait tablet */
-
-@media (max-width: 768px) {
-    #find {
-        width: 150px;
-        height: 25px;
-    }
-}
-
-
-/* Large desktop */
-
-@media (min-width: 1200px) {}
